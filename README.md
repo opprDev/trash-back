@@ -40,6 +40,35 @@ tell application "System Events"
 end tell
 ```
 
+## Usage
+
+### Clone
+
+```
+git clone git@github.com:opprDev/trash-back.git
+cd trash-back
+```
+
+### Install
+
+```
+npm install
+```
+
+### Run
+
+#### Terminal
+
+```
+osascript scripts/trash-back.scpt
+```
+
+#### Node [[FIXME](https://github.com/FWeinb/node-osascript/issues/13)]
+
+```
+npm start
+```
+
 ## About
 
 This repository was first created by [Francisco Maria Calisto](http://www.franciscocalisto.me/) ([FMCalisto](https://github.com/FMCalisto)) using the basics of the [AppleScripts](https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html) from [Giacomo Balli](http://giacomoballi.com/). At the end we used a [`npm`](https://www.npmjs.com/) solution called [`node-osascript`](https://www.npmjs.com/package/node-osascript), a node solution from [Fabrice Weinberg](https://www.npmjs.com/~fweinb) ([FWeinb](https://github.com/FWeinb)).
