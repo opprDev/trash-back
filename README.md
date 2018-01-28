@@ -42,7 +42,11 @@ end tell
 
 ## Usage
 
+[AppleScript](https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html) is a language used to automate the actions of the [Macintosh Operating System (MacOS)](https://en.wikipedia.org/wiki/Macintosh_operating_systems) and many of its applications. The purpose of this repository is to automate sevreal actions of Trash management to put back several items. For that, the computer reads the sequential instructions contained our [`scripts`](https://github.com/opprDev/trash-back/tree/master/scripts), and then communicates those instructions to targeted the [MacOS Finder](https://support.apple.com/en-ca/HT201732). The targeted Trash items are read from the communicated instructions, and then perform the actions of putting back the items.
+
 ### Clone
+
+Start by cloning the repository to your local machine so you may begin use our solution. This local copy is called your local repository.
 
 ```
 git clone git@github.com:opprDev/trash-back.git
