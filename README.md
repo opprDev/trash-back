@@ -57,17 +57,29 @@ npm install
 
 ### Run
 
+#### Node [[FIXME](https://github.com/FWeinb/node-osascript/issues/13)]
+
+```
+npm start
+```
+
 #### Terminal
 
 ```
 osascript scripts/trash-back.scpt
 ```
 
-#### Node [[FIXME](https://github.com/FWeinb/node-osascript/issues/13)]
+#### AppleScript Editor
 
-```
-npm start
-```
+The "user friendly" way to do this task. If you have any doubts just follow [The Ultimate Beginner's Guide To AppleScript](https://computers.tutsplus.com/tutorials/the-ultimate-beginners-guide-to-applescript--mac-3436) information.
+
+1. Open the AppleScript Editor;
+
+<img src="assets/screen3.png"/>
+
+2. Copy-paste the [code](https://github.com/opprDev/trash-back#the-solution) inside the Editor and press **Run**;
+
+<img src="assets/screen4.png"/>
 
 ## About
 
