@@ -10,11 +10,11 @@ To undrstand the issue we are talking about just follow the next figures.
 
 1. Open the Trash.
 
-<img src="assets/screen1.jpg"/>
+<img src="assets/screen1.png"/>
 
 2. Right-click on any file, and you’ll see the **Put Back** option.
 
-<img src="assets/screen2.jpg"/>
+<img src="assets/screen2.png"/>
 
 3. Do this for each file you have.
 
