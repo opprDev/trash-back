@@ -57,13 +57,19 @@ npm install
 
 ### Run
 
+You have several ways to run the scripts in your local machine. This repository explains how to run locally installed solutions of this repository. The running instructions are as follows.
+
 #### Node [[FIXME](https://github.com/FWeinb/node-osascript/issues/13)]
+
+The famous [npm](https://www.npmjs.com/) is most commonly used for managing [Node.js](https://nodejs.org/) modules, but it works for [AppleScript](https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html) too when combined with [some libraries](https://www.npmjs.com/browse/keyword/applescript). If you have some question about how to `start` via `npm start` just follow the [Documentation](https://docs.npmjs.com/cli/build) and we hope it will help you.
 
 ```
 npm start
 ```
 
 #### Terminal
+
+Running [AppleScript](https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html) greatly increases what you can do remotely from the command line, and enables a lot of cool tricks that are hard to do otherwise. While you can run whole scripts in the command line, this way of running is only about running can also log into a remote computer (using ssh) and run the [AppleScript](https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html) on that computer, via the `osascript` command. The `osascript` command can also run any other [Open Scripting Architecture](https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptX/Concepts/osa.html) language using the `-l` modifier.
 
 ```
 osascript scripts/trash-back.scpt
