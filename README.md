@@ -55,6 +55,8 @@ cd trash-back
 
 ### Install
 
+Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed. The `npm` can install packages in [local or global](https://stackoverflow.com/questions/29530459/what-is-the-difference-between-local-and-global-module-in-node-js-when-to-use-l) mode. In local mode it installs the package in a `node_modules` folder in your parent working directory. This location is owned by the current user.
+
 ```
 npm install
 ```
@@ -88,8 +90,6 @@ The "user friendly" way to do this task. If you have any doubts just follow [The
 <img src="assets/screen3.png"/>
 
 2. Copy-paste the [code](https://github.com/opprDev/trash-back#the-solution) inside the Editor and press **Run**;
-
-<img src="assets/screen4.png"/>
 
 ## About
 
