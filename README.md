@@ -40,6 +40,12 @@ tell application "System Events"
 end tell
 ```
 
-## Acknowledgements
+## Information
+
+### Authors
+
+- [Francisco Maria Calisto](http://www.franciscocalisto.me/) ([FMCalisto](https://github.com/FMCalisto))
+
+### Acknowledgements
 
 - [Giacomo Balli](http://giacomoballi.com/)
