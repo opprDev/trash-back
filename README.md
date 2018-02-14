@@ -70,7 +70,8 @@ You have several ways to run the scripts in your local machine. This repository 
 The famous [npm](https://www.npmjs.com/) is most commonly used for managing [Node.js](https://nodejs.org/) modules, but it works for [AppleScript](https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html) too when combined with [some libraries](https://www.npmjs.com/browse/keyword/applescript). If you have some question about how to `start` via `npm start` just follow the [Documentation](https://docs.npmjs.com/cli/build) and we hope it will help you.
 
 ```
-npm start
+npm install -g trash-back
+npm run trash-back
 ```
 
 #### Terminal
