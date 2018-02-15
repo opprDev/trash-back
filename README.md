@@ -79,6 +79,18 @@ The famous [npm](https://www.npmjs.com/) is most commonly used for managing [Nod
 npm install -g trash-back
 ```
 
+2. Clone the repository:
+
+```
+git@github.com:opprDev/trash-back.git
+```
+
+3. Locally install the `trash-back` package:
+
+```
+npm install
+```
+
 2. Run the following command as a means to symlink a package folder:
 
 ```
