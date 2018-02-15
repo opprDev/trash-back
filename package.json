@@ -1,6 +1,6 @@
 {
   "name": "trash-back",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A MacOS solution to Trash using the \"Put Back\" functionality to put all items inside Trash automatically.",
   "main": "src/index.js",
   "bin": {
