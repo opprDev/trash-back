@@ -1,6 +1,6 @@
 tell application "System Events"
   tell process "Finder"
-    repeat 10 times
+    repeat 100 times
       tell application "Finder" to open trash
       tell application "Finder" to activate
       key code 126
