@@ -1,12 +1,15 @@
 {
   "name": "trash-back",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A MacOS solution to Trash using the \"Put Back\" functionality to put all items inside Trash automatically.",
   "main": "src/index.js",
+  "bin": {
+    "trash-back": "src/trash-back.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
-    "trash-back": "node src/index.js"
+    "index": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -28,7 +31,10 @@
     "babel-preset-es2016": "^6.24.1",
     "babel-preset-es2017": "^6.24.1",
     "babel-preset-latest": "^6.24.1",
+    "fs": "0.0.1-security",
     "node-osascript": "^2.0.0",
-    "osascript": "^1.2.0"
+    "osascript": "^1.2.0",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.1"
   }
 }

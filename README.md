@@ -4,6 +4,10 @@
 
 When you [delete a file in MacOS](https://support.apple.com/kb/PH25075), its original locations is [stored](https://en.wikipedia.org/wiki/.DS_Store) in the `.DsStore` hidden files in case you want to restore it. Recent versions of macOS have the ability to put stuff in your Trash back where it came from, lickety-split, and it’s way faster than dragging and dropping. So as you know, if you click on the trash icon in your Dock, you will see the items you have, well, trashed. Right-click or Control-click on any file (or hold down Command to click and select multiple items, then Control-click), and you will see the **Put Back** option. The only problem is that it let us do it for only one item at the time. Motivated by this issues and thanks to [Giacomo Balli](http://giacomoballi.com/), we created this repository to help you.
 
+<a href="https://www.patreon.com/oppr" target="_blank">
+<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
+
 ## The Issue
 
 To undrstand the issue we are talking about just follow the next figures.
@@ -69,9 +73,22 @@ You have several ways to run the scripts in your local machine. This repository 
 
 The famous [npm](https://www.npmjs.com/) is most commonly used for managing [Node.js](https://nodejs.org/) modules, but it works for [AppleScript](https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html) too when combined with [some libraries](https://www.npmjs.com/browse/keyword/applescript). If you have some question about how to `start` via `npm start` just follow the [Documentation](https://docs.npmjs.com/cli/build) and we hope it will help you.
 
+1. Globally install the `trash-back` package:
+
 ```
 npm install -g trash-back
-npm run trash-back
+```
+
+2. Run the following command as a means to symlink a package folder:
+
+```
+npm link
+```
+
+3. Run the main command:
+
+```
+trash-back
 ```
 
 #### Terminal
